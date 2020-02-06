@@ -1,7 +1,7 @@
 # Discold
 Pre-update discord styles for BetterDiscord.
 
-**NOTE:** If you get blurry text while using this theme, please disable **Settings -> Appearance -> Hardware Acceleration.**
+**NOTE:** If you get blurry text while using this theme, please disable **Settings -> Appearance -> Hardware Acceleration.** (shoutout to prof lol)
 
 Less important note: by default, this theme hides inline message timestamps, resembling the old version. You can comment out the css that does this, it is found on the first few lines. You may also uncomment the 'opacity' property to always show timestamps without hovering.
 
@@ -36,6 +36,6 @@ Hide GIF and Nitro Gift buttons (disabled by default)
 
 ![discold-scr6](https://user-images.githubusercontent.com/14810839/73986876-beef2400-490c-11ea-9cfd-3eea88339c2f.png)
 
-Dark mode and compact mode support (WIP for compact mode)
+Dark mode and compact mode support
 
 ![discold-scr7](https://user-images.githubusercontent.com/14810839/73987209-9ca9d600-490d-11ea-9f26-e32b56208d87.png)
