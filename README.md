@@ -16,7 +16,7 @@ Message dividers
 
 ![discold-scr1](https://user-images.githubusercontent.com/14810839/73986734-5acc6000-490c-11ea-8726-7bedcd5bf963.png)
 
-Smaller and more compact message hover tooltip, no emoji.
+Disabled message darkening on hover, smaller and more compact message hover tooltip, no inline reacts.
 
 ![discold-scr2](https://user-images.githubusercontent.com/14810839/73986050-b3026280-490a-11ea-8580-12d08448062a.png)
 
