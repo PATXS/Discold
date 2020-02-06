@@ -1,7 +1,9 @@
 # Discold
 Pre-update discord styles for BetterDiscord.
 
-Note: by default, this theme hides inline message timestamps, resembling the old version. You can comment out the css that does this, it is found on the first few lines. You may also uncomment the 'opacity' property to always show timestamps without hovering.
+**NOTE:** If you get blurry text while using this theme, please disable **Settings -> Appearance -> Hardware Acceleration.**
+
+Less important note: by default, this theme hides inline message timestamps, resembling the old version. You can comment out the css that does this, it is found on the first few lines. You may also uncomment the 'opacity' property to always show timestamps without hovering.
 
 This theme is pretty minimal and only aims to look like discord before the recent UI update, so don't expect a full overhaul. It changes very little.
 I doubt the css is clean as I never really learned how to use it, but it has commented sections so you can change/delete what you don't like.
