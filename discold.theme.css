@@ -1,0 +1,239 @@
+//META{"name":"Discold","description":"Pre-update discord styles","author":"patxs :)","version":"0w0"}*//
+
+/*below: hide timestamp.*/
+/*comment out the visibility property to show timestamps on hover, and uncomment the opacity property to always show*/
+.timestampVisibleOnHover-2bQeI4 {
+    /*opacity: 1;*/
+	visibility: hidden;
+}
+/*below: uncomment to hide nitro gift and gif buttons in msg bar*/
+/*button.buttonWrapper-1ZmCpA.da-buttonWrapper.button-38aScr.da-button.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN.da-grow {
+    visibility: hidden;
+    padding: 0px;
+    width: 0px;
+    height: 0px;
+}*/
+/*below: makes emotes be the old size*/
+.emoji.jumboable {
+    width: 2rem;
+    height: 2rem;
+    min-height: 2rem;
+}
+/*below: disables message darken on hover*/
+.message-2qnXI6.selected-2P5D_Z, .mouse-mode .message-2qnXI6:hover {
+    background-color: transparent;
+}
+/*below: hides inline quick react buttons*/
+.emojiButton-jE9tXC.da-emojiButton.button-1ZiXG9.da-button {
+    padding: 0px;
+    min-width: 0px;
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+}
+.emojiSeparator-10VgEJ.da-emojiSeparator.separator-42rNt0.da-separator {
+    width: 0px;
+    margin: 0 0px;
+    height: 0px;
+    visibility: hidden;
+}
+/*below: changes the message options to be smaller and resemble old style*/
+.buttons-cl5qTG.da-buttons.container-3npvBV.da-container.isHeader-2dII4U.da-isHeader {
+    transform: scale(0.8) translateY(110%) translateX(15%);
+}
+.buttons-cl5qTG.da-buttons.container-3npvBV.da-container {
+    transform: scale(0.8) translateY(60%) translateX(15%);
+}
+.wrapper-2aW0bm {
+    /*background-color: transparent;*/
+    border-color: transparent;
+    box-shadow: 0px 0px 0px transparent;
+    border-radius: 1000px;
+}
+.button-1ZiXG9.selected-LCBEAU {
+    background-color: transparent;
+}
+/*below: moves textarea up, and chatarea up to match*/
+.channelTextArea-rNsIhG.da-channelTextArea.channelTextArea-2VhZ6z.da-channelTextArea {
+    transform: translateY(-25%);
+}
+.messagesWrapper-3lZDfY.da-messagesWrapper.group-spacing-16 {
+    transform: translateY(-3%);
+}
+.messagesWrapper-3lZDfY.da-messagesWrapper.group-spacing-0 {
+    transform: translateY(-2%);
+}
+.container-3FojY8 {
+    position: relative;
+    padding: 0px 16px 0px 72px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    min-height: 1.375px;
+}
+.typing-2GQL18 {
+    transform: translateY(-30%);
+}
+
+.newMessagesBar-mujexs {
+    border-radius: 100px;
+    transform: translateY(100%);
+}
+/*everything below: divider stuff*/
+
+.headerCozy-2H1QuU {
+    /* border-spacing: 100px 100px; */
+    /*border-top: thin solid var(--background-modifier-accent);*/
+    /* width: 20%; */
+    /* border-collapse: separate; */
+    padding-top: 15px;
+    /* padding-right: 10px; */
+}
+h2.header-23xsNx.da-header.clickableHeader-2Cygs8.da-clickableHeader {
+    padding-top: 15px;
+}
+.message-2qnXI6.da-message.cozyMessage-3V1Y8y.da-cozyMessage.groupStart-23k01U.da-groupStart.container-3FojY8.da-container.cozy-3raOZG.da-cozy:before {
+    content: "";
+    border-top: thin solid var(--background-modifier-accent);
+    width: 10%;
+    /* height: 100px; */
+    position: absolute;
+    transform: translateX(-8%);
+    padding-left: 85%;
+}
+.message-2qnXI6.da-message.cozyMessage-3V1Y8y.da-cozyMessage.groupStart-23k01U.da-groupStart.cozy-3raOZG.da-cozy:before {
+    content: "";
+    border-top: thin solid var(--background-modifier-accent);
+    width: 12%;
+    /* height: 100px; */
+    position: absolute;
+    transform: translateX(2%);
+    padding-left: 85%;
+}
+.message-2qnXI6.da-message.groupStart-23k01U.da-groupStart.compact-T3H92H.da-compact:before {
+    content: "";
+    border-top: thin solid var(--background-modifier-accent);
+    width: 12%;
+    /* height: 100px; */
+    position: absolute;
+    transform: translateX(2%) translateY(-3px);
+    padding-left: 85%;
+}
+.message-2qnXI6.da-message.compact-T3H92H.da-compact {
+    margin-top: 0px;
+}
+.compact-T3H92H .container-3FojY8 {
+    padding-bottom: 4px;
+}
+img.avatar-1BDn8e.da-avatar.avatar-VxgULZ.da-avatar {
+    transform: translateY(40%) scale(1.06);
+}
+.divider-3_HH5L.da-divider.hasContent-1_DUdQ.da-hasContent.divider-JfaTT5.da-divider.hasContent-1cNJDh.da-hasContent {
+    /* transform: translateY(2000%); */
+    visibility: hidden;
+}
+span.content-1o0f9g.da-content {
+    transform: translateY(140%);
+    z-index: 1;
+    visibility: visible;
+}
+.divider-3_HH5L {
+    margin: 0;
+}
+.hasContent-1_DUdQ {
+    margin-top: 0;
+}
+.jumpToPresentBar-9P20AM {
+
+    /*transform: translateY(25%);*/
+}
+/*below: fix pings*/
+.mentioned-xhSam7:before {
+    background-color: transparent;
+}
+/*below: fix 'viewing older msgs'*/
+.jumpToPresentBar-9P20AM {
+    bottom: 25px;
+    border-radius: 100px;
+    background-color: var(--background-accent);
+    opacity: .95;
+    padding-bottom: 0px;
+}
+/*below: context menu stuff*/
+.hint-22uc-R.da-hint {
+    width: 0px;
+    height: 0px;
+    /* float: none; */
+    visibility: hidden;
+}
+.itemGroup-1tL0uz:not(:first-child):not(:empty) {
+    border-top-width: 0px;
+}
+/*.contextMenu-HLZMGh.da-contextMenu {
+    transform: scale(0.65) translateX(50%) translateY(-9%);
+}*/
+/*.contextMenu-HLZMGh {
+    min-width: 10px;
+    max-width: 320px;
+    border-radius: 4px;
+    padding: 2px 0px;
+    height: auto;
+    text-align: center;
+}
+.itemBase-tz5SeC {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0 6px;
+    font-size: 18px;
+    line-height: 18px;
+    min-height: 32px;
+    align-items: center;
+    border-radius: 2px;
+    color: var(--interactive-normal);
+}*/
+.itemGroup-1tL0uz.da-itemGroup {
+    height: initial;
+}
+.itemBase-tz5SeC {
+    margin-top: 0px;
+    margin-bottom: 2px;
+    padding: 0px;
+    font-size: 14px;
+    line-height: 18px;
+    min-height: 0px;
+    align-items: center;
+    border-radius: 2px;
+    color: var(--interactive-normal);
+}
+.item-1Yvehc.itemBase-tz5SeC.da-item.da-itemBase.clickable-11uBi-.da-clickable {
+    transform: scale(0.9);
+}
+.contextMenu-HLZMGh {
+    min-width: 100px;
+    max-width: 100px;
+    border-radius: 4px;
+    padding: 2px 3px;
+    text-align: center;
+}
+/*below: old scrollbar color*/
+.scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb {
+    background-color: #7289da;
+}
+.theme-light .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
+    background-color: #7289da;
+    border-color: #fff;
+}
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
+    background-color: #7289da;
+    border-color: #36393f;
+}
+.scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb {
+    background-color: #7289da;
+}
+/*below: dumb theme watermrak*/
+.info-1VyQPT.da-info:after {
+    content: "u have been hacked by patxs >:( fear me !!!! rawr";
+    text-transform: lowercase;
+    color: var(--text-muted);
+    font-size: 15px;
+}
