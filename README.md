@@ -42,3 +42,5 @@ Hide GIF and Nitro Gift buttons (disabled by default)
 Dark mode and compact mode support
 
 ![discold-scr7](https://user-images.githubusercontent.com/14810839/73987209-9ca9d600-490d-11ea-9f26-e32b56208d87.png)
+
+blicc gang
