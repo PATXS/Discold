@@ -8,7 +8,7 @@ Less important note: by default, this theme hides inline message timestamps, res
 This theme is pretty minimal and does not change too much. It only aims to look like discord before the recent UI update, so don't expect a full overhaul. You may be able to use other themes over it, though I have not tested this.
 I doubt the css is clean as I never really learned how to use it, but it has commented sections so you can change/delete what you don't like.
 
-This theme supports both light and dark mode as well as both compact and cozy mode. However, it will work better on cozy mode.
+This theme supports both light and dark mode as well as both cozy and compact mode. However, it will work better on cozy.
 
 'Installation': Download the [discold.theme.css](https://raw.githubusercontent.com/PATXS/Discold/master/discold.theme.css) file and put it in the betterdiscord themes folder.
 OR just open the css file, copy everything, and paste it into Custom CSS. This theme is (mostly) not compatible with discord web.
