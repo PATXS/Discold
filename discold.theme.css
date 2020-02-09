@@ -128,6 +128,9 @@ h2.header-23xsNx.da-header.clickableHeader-2Cygs8.da-clickableHeader {
 img.avatar-1BDn8e.da-avatar.avatar-VxgULZ.da-avatar {
     transform: translateY(40%) scale(1.06);
 }
+img.avatar-1BDn8e.da-avatar {
+    transform: translateY(40%) scale(1.06);
+}
 .divider-3_HH5L.da-divider.hasContent-1_DUdQ.da-hasContent.divider-JfaTT5.da-divider.hasContent-1cNJDh.da-hasContent {
     /* transform: translateY(2000%); */
     visibility: hidden;
