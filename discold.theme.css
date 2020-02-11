@@ -131,6 +131,9 @@ img.avatar-1BDn8e.da-avatar.avatar-VxgULZ.da-avatar {
 img.avatar-1BDn8e.da-avatar {
     transform: translateY(40%) scale(1.06);
 }
+.clickableHeader-2Cygs8 .avatar-1BDn8e:active {
+    transform: translateY(40%) scale(1.04);
+}
 .divider-3_HH5L.da-divider.hasContent-1_DUdQ.da-hasContent.divider-JfaTT5.da-divider.hasContent-1cNJDh.da-hasContent {
     /* transform: translateY(2000%); */
     visibility: hidden;
