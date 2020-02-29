@@ -1,6 +1,8 @@
 # Discold
 Pre-update discord styles for BetterDiscord.
 
+(02-28-20 -- i need some time to figure out how to fix everything that was just broken in the latest update.)
+
 **NOTE:** If you get blurry text while using this theme, please disable **Settings -> Appearance -> Hardware Acceleration.** (shoutout to prof lol)
 
 Less important note: by default, this theme hides inline message timestamps, resembling the old version. You can comment out the css that does this, it is found on the first few lines. You may also uncomment the 'opacity' property to always show timestamps without hovering.
