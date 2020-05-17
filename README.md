@@ -1,7 +1,7 @@
 # Discold
 Pre-update discord styles for BetterDiscord.
 
-(02-28-20 -- i need some time to figure out how to fix everything that was just broken in the latest update.)
+update: everything is fixed now, despite being messy. compact mode support is GONE due to the new discord UI changes.
 
 **NOTE:** If you get blurry text while using this theme, please disable **Settings -> Appearance -> Hardware Acceleration.** (shoutout to prof lol)
 
@@ -37,7 +37,7 @@ Always shown timestamps (disabled by default)
 
 ![discold-scr5](https://user-images.githubusercontent.com/14810839/73986584-fdd0aa00-490b-11ea-9e47-8db0aba1268c.png)
 
-Hide GIF and Nitro Gift buttons (disabled by default)
+Hide GIF and Nitro Gift buttons (enabled by default)
 
 ![discold-scr6](https://user-images.githubusercontent.com/14810839/73986876-beef2400-490c-11ea-9cfd-3eea88339c2f.png)
 
